@@ -1,0 +1,11 @@
+#Nav{
+    width: 100%;
+    background-color:salmon;
+    position: fixed;
+    top:0;
+    height:50px;
+    
+}
+#Nav button{
+    float: right;
+}
