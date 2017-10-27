@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Products from './component/Products';
 import Nav from './component/Nav';
-import 'typeface-roboto'
+import Router from './router'
 
 class App extends Component {
   render() {
@@ -11,7 +11,7 @@ class App extends Component {
       <div className="App">
         <Nav />
         <div className="content">
-          <Products />
+          {Router}
         </div>
       </div>
     );

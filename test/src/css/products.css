@@ -8,7 +8,7 @@
 }
 
 .ProductCard{
-    height:250px;
+    height:400px;
     width:250px;
      background-color:white; 
     margin:20px;
@@ -19,8 +19,48 @@
 
 .shoes{
     width:100%;
-    height:100px;
+    height:200px;
     background: url('https://cdn.shopify.com/s/files/1/0223/5177/products/Cooper-navy-jackerwin-shoes__main-image__2_large.jpg?v=1463063056') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.tshirt{
+    width:100%;
+    height:200px;
+    background: url('https://images.bigcartel.com/product_images/154156375/2015-03-10_13.57.18.jpg?auto=format&fit=max&h=1000&w=1000') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.pants{
+    width:100%;
+    height:200px;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/d/d2/Jeans_for_men.jpg') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.hat{
+    width:100%;
+    height:200px;
+    background: url('http://static1.businessinsider.com/image/59e8d0c590992406288b5046/elon-musk-is-selling-a-boring-black-hat-for-20--and-people-are-eating-it-up.jpg') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.socks{
+    width:100%;
+    height:200px;
+    background: url('https://cdn.shopify.com/s/files/1/0552/7645/products/star-wars-socks-together.jpg?v=1477491570') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
