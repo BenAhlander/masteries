@@ -37,6 +37,9 @@ class Products extends Component {
     }
 
     render() {
+
+        const jeff = require('../jeff.c7ff7e4f.jpg')
+
         let products = this.state.products.map((elem, i) => {
             return (
                 <div key={i} className="ProductCard">
@@ -57,6 +60,7 @@ class Products extends Component {
                 <a href="https://www.w3schools.com">Visit W3Schools</a>
                 <input onChange={e => this.updateReduxThing(e.target.value)}></input>
                 <h5>{`This is on redux "${this.props.search}"`}</h5>
+                <div className="jeff"><img src={jeff} style={{width:'80px', height:'80px;', marginTop:'10px'}}/></div>
                 {/* <h5>{this.props.match.url}</h5> */}
                 <div className="productCardContainer">
                     {products}

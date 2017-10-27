@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import '../css/products.css';
+import '../css/theater.css';
 import joeVideo from '../videos/JoeHorror.MP4'
 import alecVideo from '../videos/alecVideo.mp4'
 import idkWhatThisIsButItsAnAudioFile from '../videos/Constancy Part 1 - The Descent.mp3'
@@ -26,6 +26,11 @@ class Theater extends Component {
         console.log(this.props)
         return (
             <div>
+                <div class="wrapper">
+                    <div class="one">One</div>
+                    <div class="two">Two</div>
+                    <div class="three">Three</div>
+                </div>
                 <h2>Welcome to Theater</h2>
                 <p>{this.props.word}</p>
                 <h5>{`This is on redux "${this.props.search}"`}</h5>
@@ -54,3 +59,6 @@ function mapStateToProps(state) {
 }
 
 export default connect(mapStateToProps, { getSearch })(Theater)
+
+
+//
