@@ -92,3 +92,6 @@ export default connect(mapStateToProps, { getSearch })(Products)
 
 //best practies include things like descriptive tags, like <nav> </nav> instead of <div> </div>. This will help the 
 //reader/developer more easily understanding what is happening.
+
+//Doctypes declaration is not an HTML tag. The doctype is an instruction to the browser about what version of html the page
+// written in.
