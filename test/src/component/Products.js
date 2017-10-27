@@ -78,3 +78,17 @@ function mapStateToProps(state) {
 
 
 export default connect(mapStateToProps, { getSearch })(Products)
+
+
+
+//Web sematnics is basically an agreed upon way to format data in on the web. this way its easier for developers to
+// read and understand other peoples code.
+
+//Custom: this is when you make up your own semantics
+
+//The goal of web semantics is to coding for the web better and easier. 
+
+//The purpose web sematnics serves is that it helps web developers understand and read other peoples code better.
+
+//best practies include things like descriptive tags, like <nav> </nav> instead of <div> </div>. This will help the 
+//reader/developer more easily understanding what is happening.
